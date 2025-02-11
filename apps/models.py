@@ -1,4 +1,4 @@
-from app import db
+from apps import db
 from sqlalchemy.orm import validates
 from werkzeug.security import generate_password_hash, check_password_hash
 import bcrypt
